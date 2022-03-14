@@ -27,9 +27,6 @@ jobs:
       - name: Test with Pytest
         run: |
           make test
-      - name: format with Python Black
-        run: |
-          make format
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
